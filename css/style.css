@@ -1,0 +1,1068 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.conteiner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 15PX;
+  padding-right: 15PX;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  background-color: #221c5a;
+}
+
+h1, .banner-img p,
+h2,
+h3,
+h4,
+.third-section .box3 .third-subbox2 .box5 .subbox11 div,
+h5,
+h6 {
+  padding: 20px 0;
+}
+
+h1, .banner-img p {
+  font-size: 38px;
+  line-height: 38px;
+}
+
+h2 {
+  font-size: 34px;
+  line-height: 34px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+h4, .third-section .box3 .third-subbox2 .box5 .subbox11 div {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 28px;
+}
+
+h6 {
+  font-size: 26px;
+}
+
+header {
+  background-color: #221C5A;
+  position: sticky;
+  top: 0;
+  transition: 1s;
+  z-index: 999;
+}
+header ul {
+  justify-content: center;
+}
+header ul li {
+  padding: 12px 12px;
+}
+header ul li a {
+  font-size: 12px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 400;
+  transition: color 0.2s linear;
+  letter-spacing: 1.5px;
+}
+
+.banner-img {
+  background-image: url(..//photos/asset\ 27.webp);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 170px;
+  text-align: center;
+}
+.banner-img .conteiner {
+  justify-content: center;
+  flex-direction: column;
+}
+.banner-img img {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  padding-top: 150px;
+}
+.banner-img h1, .banner-img p {
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 100px;
+  color: #fff;
+  line-height: 90%;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-img p {
+  font-family: "PT Serif", serif;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 10px;
+  width: 25%;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.firstbox .box {
+  width: 100%;
+}
+.firstbox .box .first-subbox1, .firstbox .box .forth-section .forthbox .subbox2, .forth-section .forthbox .firstbox .box .subbox2, .firstbox .box .third-section .box3 .third-subbox1, .third-section .box3 .firstbox .box .third-subbox1, .firstbox .box .backcamera .box1 .second-box2, .backcamera .box1 .firstbox .box .second-box2 {
+  width: 33%;
+  background-color: #32DB8A;
+  height: 370px;
+  display: inline;
+  position: sticky;
+  top: 9%;
+}
+.firstbox .box .first-subbox1 .number1, .firstbox .box .forth-section .forthbox .subbox2 .number1, .forth-section .forthbox .firstbox .box .subbox2 .number1, .firstbox .box .third-section .box3 .third-subbox1 .number1, .third-section .box3 .firstbox .box .third-subbox1 .number1, .backcamera .box1 .second-box2 .firstbox .box .first-subbox1 .number2, .backcamera .box1 .second-box2 .firstbox .box .forth-section .forthbox .subbox2 .number2, .forth-section .forthbox .backcamera .box1 .second-box2 .firstbox .box .subbox2 .number2, .backcamera .box1 .second-box2 .firstbox .box .third-section .box3 .third-subbox1 .number2, .third-section .box3 .backcamera .box1 .second-box2 .firstbox .box .third-subbox1 .number2, .firstbox .box .backcamera .box1 .second-box2 .number1, .firstbox .box .backcamera .box1 .second-box2 .number2, .backcamera .box1 .firstbox .box .second-box2 .number1, .backcamera .box1 .firstbox .box .second-box2 .number2 {
+  overflow: hidden;
+}
+.firstbox .box .first-subbox1 .number1 h1, .firstbox .box .forth-section .forthbox .subbox2 .number1 h1, .forth-section .forthbox .firstbox .box .subbox2 .number1 h1, .firstbox .box .third-section .box3 .third-subbox1 .number1 h1, .third-section .box3 .firstbox .box .third-subbox1 .number1 h1, .backcamera .box1 .second-box2 .firstbox .box .first-subbox1 .number2 h1, .backcamera .box1 .second-box2 .firstbox .box .forth-section .forthbox .subbox2 .number2 h1, .forth-section .forthbox .backcamera .box1 .second-box2 .firstbox .box .subbox2 .number2 h1, .backcamera .box1 .second-box2 .firstbox .box .third-section .box3 .third-subbox1 .number2 h1, .third-section .box3 .backcamera .box1 .second-box2 .firstbox .box .third-subbox1 .number2 h1, .firstbox .box .backcamera .box1 .second-box2 .number1 h1, .firstbox .box .backcamera .box1 .second-box2 .number2 h1, .backcamera .box1 .firstbox .box .second-box2 .number1 h1, .backcamera .box1 .firstbox .box .second-box2 .number2 h1, .firstbox .box .first-subbox1 .number1 .banner-img p, .firstbox .box .forth-section .forthbox .subbox2 .number1 .banner-img p, .forth-section .forthbox .firstbox .box .subbox2 .number1 .banner-img p, .firstbox .box .third-section .box3 .third-subbox1 .number1 .banner-img p, .third-section .box3 .firstbox .box .third-subbox1 .number1 .banner-img p, .backcamera .box1 .second-box2 .firstbox .box .first-subbox1 .number2 .banner-img p, .backcamera .box1 .second-box2 .firstbox .box .forth-section .forthbox .subbox2 .number2 .banner-img p, .forth-section .forthbox .backcamera .box1 .second-box2 .firstbox .box .subbox2 .number2 .banner-img p, .backcamera .box1 .second-box2 .firstbox .box .third-section .box3 .third-subbox1 .number2 .banner-img p, .third-section .box3 .backcamera .box1 .second-box2 .firstbox .box .third-subbox1 .number2 .banner-img p, .firstbox .box .backcamera .box1 .second-box2 .number1 .banner-img p, .firstbox .box .backcamera .box1 .second-box2 .number2 .banner-img p, .backcamera .box1 .firstbox .box .second-box2 .number1 .banner-img p, .backcamera .box1 .firstbox .box .second-box2 .number2 .banner-img p, .banner-img .firstbox .box .first-subbox1 .number1 p, .banner-img .firstbox .box .forth-section .forthbox .subbox2 .number1 p, .forth-section .forthbox .banner-img .firstbox .box .subbox2 .number1 p, .banner-img .firstbox .box .third-section .box3 .third-subbox1 .number1 p, .third-section .box3 .banner-img .firstbox .box .third-subbox1 .number1 p, .backcamera .box1 .second-box2 .banner-img .firstbox .box .first-subbox1 .number2 p, .backcamera .box1 .second-box2 .banner-img .firstbox .box .forth-section .forthbox .subbox2 .number2 p, .forth-section .forthbox .backcamera .box1 .second-box2 .banner-img .firstbox .box .subbox2 .number2 p, .backcamera .box1 .second-box2 .banner-img .firstbox .box .third-section .box3 .third-subbox1 .number2 p, .third-section .box3 .backcamera .box1 .second-box2 .banner-img .firstbox .box .third-subbox1 .number2 p, .banner-img .firstbox .box .backcamera .box1 .second-box2 .number1 p, .banner-img .firstbox .box .backcamera .box1 .second-box2 .number2 p, .backcamera .box1 .banner-img .firstbox .box .second-box2 .number1 p, .backcamera .box1 .banner-img .firstbox .box .second-box2 .number2 p {
+  color: #55b286;
+  margin: 0 -60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 100%;
+  letter-spacing: -5px;
+}
+.firstbox .box .first-subbox1 .services h2, .firstbox .box .forth-section .forthbox .subbox2 .services h2, .forth-section .forthbox .firstbox .box .subbox2 .services h2, .firstbox .box .third-section .box3 .third-subbox1 .services h2, .third-section .box3 .firstbox .box .third-subbox1 .services h2, .firstbox .box .first-subbox1 .backcamera .box1 .protfolio h2, .firstbox .box .forth-section .forthbox .subbox2 .backcamera .box1 .protfolio h2, .forth-section .forthbox .firstbox .box .subbox2 .backcamera .box1 .protfolio h2, .firstbox .box .third-section .box3 .third-subbox1 .backcamera .box1 .protfolio h2, .third-section .box3 .firstbox .box .third-subbox1 .backcamera .box1 .protfolio h2, .backcamera .box1 .firstbox .box .first-subbox1 .protfolio h2, .backcamera .box1 .firstbox .box .forth-section .forthbox .subbox2 .protfolio h2, .forth-section .forthbox .backcamera .box1 .firstbox .box .subbox2 .protfolio h2, .backcamera .box1 .firstbox .box .third-section .box3 .third-subbox1 .protfolio h2, .third-section .box3 .backcamera .box1 .firstbox .box .third-subbox1 .protfolio h2, .firstbox .box .backcamera .box1 .second-box2 .services h2, .firstbox .box .backcamera .box1 .second-box2 .protfolio h2, .backcamera .box1 .firstbox .box .second-box2 .services h2, .backcamera .box1 .firstbox .box .second-box2 .protfolio h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 83px;
+  margin-top: 10px;
+  color: #fff;
+  margin-left: 115px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+}
+.firstbox .box .first-subbox2 {
+  width: 70%;
+}
+.firstbox .box .first-subbox2 .rightaro {
+  height: 370px;
+  position: relative;
+}
+.firstbox .box .first-subbox2 .rightaro h1, .firstbox .box .first-subbox2 .rightaro .banner-img p, .banner-img .firstbox .box .first-subbox2 .rightaro p {
+  position: absolute;
+  top: 60%;
+  padding: 40px;
+  font-size: 80px;
+  color: white;
+}
+.firstbox .box .first-subbox2 .rightsection {
+  background-color: #fff;
+}
+.firstbox .box .first-subbox2 .rightsection .content .square, .firstbox .box .first-subbox2 .rightsection .content .round {
+  padding: 50px;
+  padding-bottom: 0;
+  width: 50%;
+}
+.firstbox .box .first-subbox2 .rightsection .content .square h3, .firstbox .box .first-subbox2 .rightsection .content .round h3 {
+  font-family: "Barlow", sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 0;
+  margin-left: 25%;
+}
+.firstbox .box .first-subbox2 .rightsection .content .square p, .firstbox .box .first-subbox2 .rightsection .content .round p {
+  text-align: left;
+  padding-top: 10px;
+  margin-left: 25%;
+}
+.firstbox .box .first-subbox2 .rightsection .content .round {
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.backcamera {
+  background-image: url(../photos/asset\ 29.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backcamera .box1 {
+  width: 100%;
+}
+.backcamera .box1 .second-box1 {
+  width: 70%;
+}
+.backcamera .box1 .second-box1 .box2, .backcamera .box1 .second-box1 .box4, .backcamera .box1 .second-box1 .box3 .subbox1, .backcamera .box1 .second-box1 .box3 .subbox2 {
+  width: 100%;
+  margin-top: 49%;
+  text-align: center;
+  position: relative;
+}
+.backcamera .box1 .second-box1 .box2 .img, .backcamera .box1 .second-box1 .box4 .img, .backcamera .box1 .second-box1 .box3 .subbox1 .img, .backcamera .box1 .second-box1 .box3 .subbox2 .img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.backcamera .box1 .second-box1 .box2 .text, .backcamera .box1 .second-box1 .box4 .text, .backcamera .box1 .second-box1 .box4 .text3, .backcamera .box1 .second-box1 .box3 .subbox1 .text, .backcamera .box1 .second-box1 .box3 .subbox2 .text, .backcamera .box1 .second-box1 .box3 .subbox1 .text1, .backcamera .box1 .second-box1 .box3 .subbox2 .text1 {
+  margin: 0 auto;
+  transition: 1s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 85%;
+  padding: 9%;
+  opacity: 0;
+}
+.backcamera .box1 .second-box1 .box2 .text:hover, .backcamera .box1 .second-box1 .box4 .text:hover, .backcamera .box1 .second-box1 .box4 .text3:hover, .backcamera .box1 .second-box1 .box3 .subbox1 .text:hover, .backcamera .box1 .second-box1 .box3 .subbox2 .text:hover, .backcamera .box1 .second-box1 .box3 .subbox1 .text1:hover, .backcamera .box1 .second-box1 .box3 .subbox2 .text1:hover {
+  opacity: 1;
+}
+.backcamera .box1 .second-box1 .box2 .text h4, .backcamera .box1 .second-box1 .box2 .text .third-section .box3 .third-subbox2 .box5 .subbox11 div, .third-section .box3 .third-subbox2 .box5 .subbox11 .backcamera .box1 .second-box1 .box2 .text div, .backcamera .box1 .second-box1 .box4 .text h4, .backcamera .box1 .second-box1 .box4 .text .third-section .box3 .third-subbox2 .box5 .subbox11 div, .third-section .box3 .third-subbox2 .box5 .subbox11 .backcamera .box1 .second-box1 .box4 .text div, .backcamera .box1 .second-box1 .box4 .text3 h4, .backcamera .box1 .second-box1 .box4 .text3 .third-section .box3 .third-subbox2 .box5 .subbox11 div, .third-section .box3 .third-subbox2 .box5 .subbox11 .backcamera .box1 .second-box1 .box4 .text3 div, .backcamera .box1 .second-box1 .box3 .subbox1 .text h4, .backcamera .box1 .second-box1 .third-section .box3 .subbox1 .text .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .subbox1 .text .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox1 .text div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox1 .text div, .backcamera .box1 .second-box1 .box3 .subbox2 .text h4, .backcamera .box1 .second-box1 .third-section .box3 .subbox2 .text .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .subbox2 .text .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox2 .text div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox2 .text div, .backcamera .box1 .second-box1 .box3 .subbox1 .text1 h4, .backcamera .box1 .second-box1 .third-section .box3 .subbox1 .text1 .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .subbox1 .text1 .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox1 .text1 div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox1 .text1 div, .backcamera .box1 .second-box1 .box3 .subbox2 .text1 h4, .backcamera .box1 .second-box1 .third-section .box3 .subbox2 .text1 .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .subbox2 .text1 .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox2 .text1 div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox2 .text1 div {
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 4px;
+  padding: 10px 0 0;
+}
+.backcamera .box1 .second-box1 .box2 .text h6, .backcamera .box1 .second-box1 .box4 .text h6, .backcamera .box1 .second-box1 .box4 .text3 h6, .backcamera .box1 .second-box1 .box3 .subbox1 .text h6, .backcamera .box1 .second-box1 .box3 .subbox2 .text h6, .backcamera .box1 .second-box1 .box3 .subbox1 .text1 h6, .backcamera .box1 .second-box1 .box3 .subbox2 .text1 h6 {
+  font-weight: 700;
+  text-transform: capitalize;
+  color: gray;
+  padding: 10px 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.backcamera .box1 .second-box1 .box3 {
+  width: 100%;
+}
+.backcamera .box1 .second-box1 .box3 .subbox1, .backcamera .box1 .second-box1 .box3 .subbox2 {
+  width: 50%;
+  margin: 0;
+  position: relative;
+  height: 100%;
+}
+.backcamera .box1 .second-box1 .box3 .subbox1 .text1, .backcamera .box1 .second-box1 .box3 .subbox2 .text1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25%;
+  width: 90%;
+  height: 90%;
+}
+.backcamera .box1 .second-box1 .box3 .subbox1 .text1 h4, .backcamera .box1 .second-box1 .third-section .box3 .subbox1 .text1 .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .subbox1 .text1 .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox1 .text1 div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox1 .text1 div, .backcamera .box1 .second-box1 .box3 .subbox2 .text1 h4, .backcamera .box1 .second-box1 .third-section .box3 .subbox2 .text1 .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .subbox2 .text1 .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox2 .text1 div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox2 .text1 div {
+  font-size: 18px;
+}
+.backcamera .box1 .second-box1 .box3 .subbox1 .text1 h6, .backcamera .box1 .second-box1 .box3 .subbox2 .text1 h6 {
+  font-size: 16px;
+}
+.backcamera .box1 .second-box1 .box3 .subbox2 {
+  width: 50%;
+}
+.backcamera .box1 .second-box1 .box4 {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+.backcamera .box1 .second-box1 .box4 .text3 {
+  padding: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+}
+.backcamera .box1 .second-box1 .box5 {
+  width: 100%;
+}
+.backcamera .box1 .second-box1 .box5 .subbox3 {
+  width: 50%;
+}
+.backcamera .box1 .second-box1 .box5 .subbox4 {
+  width: 57%;
+  background-color: #E74C78;
+}
+.backcamera .box1 .second-box1 .box5 .subbox4 h5 {
+  text-align: center;
+  color: #fff;
+}
+.backcamera .box1 .second-box1 .box5 .subbox4 img {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.backcamera .box1 .second-box2 {
+  width: 33%;
+  background-color: #ffba42;
+  height: 370px;
+  display: inline;
+  position: sticky;
+  top: 9%;
+}
+.backcamera .box1 .second-box2 .number2 {
+  overflow: hidden;
+  position: relative;
+}
+.backcamera .box1 .second-box2 .number2 h1, .backcamera .box1 .second-box2 .number2 .banner-img p, .banner-img .backcamera .box1 .second-box2 .number2 p {
+  color: #E3A436;
+  margin: 0 -60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 100%;
+  letter-spacing: -5px;
+}
+.backcamera .box1 .protfolio h2 {
+  position: absolute;
+  bottom: -40%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 108px;
+  line-height: 83px;
+  margin-top: 10px;
+  color: #fff;
+  margin-left: 115px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+}
+
+.third-section {
+  background-image: url(../photos/asset\ 30.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.third-section .box3 {
+  width: 100%;
+}
+.third-section .box3 .third-subbox1 {
+  position: sticky;
+  top: 9%;
+  width: 33%;
+  background-color: #E74C78;
+  height: 370px;
+  font-family: "Montserrat", sans-serif;
+}
+.third-section .box3 .third-subbox1 .number3 {
+  overflow: hidden;
+}
+.third-section .box3 .third-subbox1 .number3 h1, .third-section .box3 .third-subbox1 .number3 .banner-img p, .banner-img .third-section .box3 .third-subbox1 .number3 p {
+  color: #B24564;
+  margin: 0 -60px;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 100%;
+  letter-spacing: -5px;
+}
+.third-section .box3 .third-subbox1 .crafters h2 {
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 83px;
+  margin-top: 10px;
+  color: #fff;
+  margin-left: 115px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+}
+.third-section .box3 .third-subbox2 {
+  width: 100%;
+}
+.third-section .box3 .third-subbox2 .whitebox {
+  background-color: #fff;
+}
+.third-section .box3 .third-subbox2 .whitebox .box2, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .whitebox .subbox1, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .subbox1, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .whitebox .subbox2, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .subbox2, .third-section .box3 .third-subbox2 .whitebox .backcamera .box1 .second-box1 .box4, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .box4 {
+  overflow: hidden;
+  height: 100px;
+}
+.third-section .box3 .third-subbox2 .whitebox .box2 h1, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .whitebox .subbox1 h1, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .subbox1 h1, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .whitebox .subbox2 h1, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .subbox2 h1, .third-section .box3 .third-subbox2 .whitebox .backcamera .box1 .second-box1 .box4 h1, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .box4 h1, .third-section .box3 .third-subbox2 .whitebox .box2 .banner-img p, .banner-img .third-section .box3 .third-subbox2 .whitebox .box2 p, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .whitebox .subbox1 .banner-img p, .banner-img .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .whitebox .subbox1 p, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .subbox1 .banner-img p, .banner-img .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .subbox1 p, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .whitebox .subbox2 .banner-img p, .banner-img .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .whitebox .subbox2 p, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .subbox2 .banner-img p, .banner-img .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .subbox2 p, .third-section .box3 .third-subbox2 .whitebox .backcamera .box1 .second-box1 .box4 .banner-img p, .banner-img .third-section .box3 .third-subbox2 .whitebox .backcamera .box1 .second-box1 .box4 p, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .box4 .banner-img p, .banner-img .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .whitebox .box4 p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 180px;
+  line-height: 100%;
+  margin-top: -90px;
+  color: #221c5a;
+}
+.third-section .box3 .third-subbox2 .whitebox .box3 {
+  padding: 10px;
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 26px;
+  color: #23214c;
+}
+.third-section .box3 .third-subbox2 .whitebox .box3 p {
+  font-weight: 400;
+  width: 50%;
+  padding: 45px;
+  vertical-align: baseline;
+}
+.third-section .box3 .third-subbox2 .whitebox .box3 ul {
+  padding: 50px;
+}
+.third-section .box3 .third-subbox2 .whitebox .box3 ul li {
+  font-weight: 400;
+}
+.third-section .box3 .third-subbox2 .whitebox .box3 ul li span {
+  font-weight: 700;
+  color: #e54b76;
+}
+.third-section .box3 .third-subbox2 .box4 {
+  height: 25.5%;
+  animation: maulik 15s ease-in-out infinite;
+}
+@keyframes maulik {
+  0% {
+    background-image: url(../photos/asset\ 12.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  50% {
+    background-image: url(../photos/asset\ 13.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-image: url(../photos/asset\ 14.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.third-section .box3 .third-subbox2 .box4 button {
+  background-color: transparent;
+  border: none;
+}
+.third-section .box3 .third-subbox2 .box4 button i {
+  padding: 50px;
+  font-size: 70px;
+  color: #fff;
+}
+.third-section .box3 .third-subbox2 .box5 {
+  width: 100%;
+}
+.third-section .box3 .third-subbox2 .box5 .subbox11 {
+  width: 60%;
+  background-color: #fff;
+  padding: 90px 50px 50px;
+  font-family: Roboto, sans-serif;
+}
+.third-section .box3 .third-subbox2 .box5 .subbox11 h4, .third-section .box3 .third-subbox2 .box5 .subbox11 div {
+  color: #23214c;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0;
+}
+.third-section .box3 .third-subbox2 .box5 .subbox11 p {
+  color: #ee87a4;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 4px;
+  padding-bottom: 40px;
+}
+.third-section .box3 .third-subbox2 .box5 .subbox11 div {
+  font-weight: 400;
+  padding-bottom: 0;
+}
+.third-section .box3 .third-subbox2 .box5 .subbox2 {
+  width: 53.9%;
+  animation: maulik1 15s ease-in infinite;
+}
+@keyframes maulik1 {
+  0% {
+    background-image: url(../photos/asset\ 15.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  50% {
+    background-image: url(../photos/asset\ 16.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-image: url(../photos/asset\ 17.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.third-section .box3 .third-subbox2 .box5 .subbox2 .fa-solid {
+  padding: 30px;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+}
+
+.forth-section {
+  padding-top: 10.9%;
+  background-image: url(../photos/asset\ 31.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.forth-section .forthbox {
+  width: 100%;
+}
+.forth-section .forthbox .subbox1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 {
+  width: 70%;
+}
+.forth-section .forthbox .subbox1 .box1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box1 {
+  height: 370px;
+}
+.forth-section .forthbox .subbox1 .box2, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 {
+  background-color: #fff;
+  padding: 0 60px;
+}
+.forth-section .forthbox .subbox1 .box2 .line1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1 {
+  width: 100%;
+  padding: 35px 0;
+  border-bottom: 2px solid #f4f4f4;
+}
+.forth-section .forthbox .subbox1 .box2 .line1:nth-child(4), .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1:nth-child(4), .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1:nth-child(4), .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1:nth-child(4), .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1:nth-child(4), .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1:nth-child(4), .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1:nth-child(4), .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1:nth-child(4), .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1:nth-child(4), .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1:nth-child(4), .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1:nth-child(4), .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1:nth-child(4), .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1:nth-child(4), .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1:nth-child(4), .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1:nth-child(4) {
+  border-bottom: none;
+}
+.forth-section .forthbox .subbox1 .box2 .line1 h1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1 h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1 h1, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1 h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1 h1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1 h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1 h1, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1 h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1 h1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1 h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1 h1, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1 h1, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1 h1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1 h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1 h1, .forth-section .forthbox .subbox1 .box2 .line1 .banner-img p, .banner-img .forth-section .forthbox .subbox1 .box2 .line1 p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1 .banner-img p, .banner-img .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1 p, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1 .banner-img p, .banner-img .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1 p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1 .banner-img p, .banner-img .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1 p, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1 .banner-img p, .banner-img .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1 p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1 .banner-img p, .banner-img .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1 p, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1 .banner-img p, .banner-img .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1 p, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1 .banner-img p, .banner-img .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1 p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1 .banner-img p, .banner-img .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1 p {
+  width: 5%;
+  font-size: 48px;
+  line-height: 26px;
+  color: #32db89;
+  font-weight: 900;
+}
+.forth-section .forthbox .subbox1 .box2 .line1 .name, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1 .name, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1 .name, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1 .name, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1 .name, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1 .name, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1 .name, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1 .name, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1 .name, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1 .name, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1 .name, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1 .name, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1 .name, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1 .name, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1 .name {
+  width: 20%;
+}
+.forth-section .forthbox .subbox1 .box2 .line1 .name h2, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1 .name h2, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1 .name h2, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1 .name h2, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1 .name h2, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1 .name h2, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1 .name h2, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1 .name h2, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1 .name h2, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1 .name h2, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1 .name h2, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1 .name h2, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1 .name h2, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1 .name h2, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1 .name h2 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #23214c;
+  font-weight: 400;
+  padding: 0;
+}
+.forth-section .forthbox .subbox1 .box2 .line1 .name h4, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1 .name h4, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1 .name h4, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1 .name h4, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1 .name h4, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1 .name h4, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1 .name h4, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1 .name h4, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1 .name h4, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1 .name h4, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1 .name h4, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1 .name h4, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1 .name h4, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1 .name h4, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1 .name h4, .forth-section .forthbox .subbox1 .box2 .line1 .name .third-section .box3 .third-subbox2 .box5 .subbox11 div, .third-section .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox1 .box2 .line1 .name div, .forth-section .forthbox .backcamera .box1 .second-box1 .third-section .box3 .subbox2 .box2 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1 .name .third-subbox2 .box5 .subbox11 div, .forth-section .forthbox .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox2 .box2 .line1 .name div, .third-section .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox2 .box2 .line1 .name div, .backcamera .box1 .second-box1 .third-section .box3 .forth-section .forthbox .subbox2 .box2 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1 .name .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox2 .box2 .line1 .name div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox2 .box2 .line1 .name div, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .third-section .box3 .subbox1 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1 .name .third-subbox2 .box5 .subbox11 div, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox1 .line1 .name div, .third-section .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox1 .line1 .name div, .backcamera .box1 .second-box1 .third-section .box3 .forth-section .forthbox .subbox1 .subbox1 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1 .name .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox1 .subbox1 .line1 .name div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox1 .subbox1 .line1 .name div, .forth-section .forthbox .backcamera .box1 .second-box1 .third-section .box3 .subbox2 .subbox1 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1 .name .third-subbox2 .box5 .subbox11 div, .forth-section .forthbox .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox2 .subbox1 .line1 .name div, .third-section .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox2 .subbox1 .line1 .name div, .backcamera .box1 .second-box1 .third-section .box3 .forth-section .forthbox .subbox2 .subbox1 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1 .name .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox2 .subbox1 .line1 .name div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox2 .subbox1 .line1 .name div, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .third-section .box3 .subbox2 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1 .name .third-subbox2 .box5 .subbox11 div, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox2 .line1 .name div, .third-section .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox2 .line1 .name div, .backcamera .box1 .second-box1 .third-section .box3 .forth-section .forthbox .subbox1 .subbox2 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1 .name .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox1 .subbox2 .line1 .name div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox1 .subbox2 .line1 .name div, .forth-section .forthbox .backcamera .box1 .second-box1 .third-section .box3 .subbox2 .subbox2 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1 .name .third-subbox2 .box5 .subbox11 div, .forth-section .forthbox .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox2 .subbox2 .line1 .name div, .third-section .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox2 .subbox2 .line1 .name div, .backcamera .box1 .second-box1 .third-section .box3 .forth-section .forthbox .subbox2 .subbox2 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1 .name .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox2 .subbox2 .line1 .name div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox2 .subbox2 .line1 .name div, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1 .name .third-section .box3 .third-subbox2 .box5 .subbox11 div, .third-section .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1 .name div, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1 .name .third-section .box3 .third-subbox2 .box5 .subbox11 div, .third-section .box3 .third-subbox2 .box5 .subbox11 .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1 .name div, .forth-section .forthbox .backcamera .box1 .second-box1 .third-section .box3 .subbox2 .box4 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1 .name .third-subbox2 .box5 .subbox11 div, .forth-section .forthbox .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .subbox2 .box4 .line1 .name div, .third-section .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .subbox2 .box4 .line1 .name div, .backcamera .box1 .second-box1 .third-section .box3 .forth-section .forthbox .subbox2 .box4 .line1 .name .third-subbox2 .box5 .subbox11 div, .third-section .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1 .name .third-subbox2 .box5 .subbox11 div, .backcamera .box1 .second-box1 .third-section .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox2 .box4 .line1 .name div, .third-section .backcamera .box1 .second-box1 .box3 .third-subbox2 .box5 .subbox11 .forth-section .forthbox .subbox2 .box4 .line1 .name div {
+  padding: 0;
+  font-size: 12px;
+  line-height: 26px;
+  color: #ee87a4;
+  font-weight: 700;
+}
+.forth-section .forthbox .subbox1 .box2 .line1 p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1 p, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1 p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1 p, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1 p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1 p, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1 p, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1 p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1 p {
+  width: 50%;
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+  font-weight: 700;
+  transition: 1s;
+}
+.forth-section .forthbox .subbox1 .box2 .line1 p:hover, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .line1 p:hover, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 .line1 p:hover, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 .line1 p:hover, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 .line1 p:hover, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .line1 p:hover, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 .line1 p:hover, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 .line1 p:hover, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 .line1 p:hover, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 .line1 p:hover, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 .line1 p:hover, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 .line1 p:hover, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 .line1 p:hover, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .line1 p:hover, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 .line1 p:hover {
+  color: #e784a1;
+}
+.forth-section .forthbox .subbox1 .box2 a, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 a, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 a, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 a, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 a, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 a, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 a, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 a, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 a, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 a, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 a, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 a, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 a, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 a, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 a {
+  border-bottom: 2px solid;
+  padding-bottom: 20px;
+}
+.forth-section .forthbox .subbox1 .box2 a h1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 a h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 a h1, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 a h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 a h1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 a h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 a h1, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 a h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 a h1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 a h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 a h1, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 a h1, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 a h1, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 a h1, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 a h1, .forth-section .forthbox .subbox1 .box2 a .banner-img p, .banner-img .forth-section .forthbox .subbox1 .box2 a p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 a .banner-img p, .banner-img .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box2 a p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 a .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box2 a p, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 a .banner-img p, .banner-img .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox1 a p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 a .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox1 a p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 a .banner-img p, .banner-img .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 a p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 a .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox1 a p, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 a .banner-img p, .banner-img .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box3 .subbox2 a p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 a .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox1 .subbox2 a p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 a .banner-img p, .banner-img .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .subbox2 a p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 a .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .subbox2 a p, .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 a .banner-img p, .banner-img .forth-section .forthbox .subbox1 .backcamera .box1 .second-box1 .box4 a p, .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 a .banner-img p, .banner-img .backcamera .box1 .second-box1 .forth-section .forthbox .subbox1 .box4 a p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 a .banner-img p, .banner-img .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box4 a p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 a .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box4 a p {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  color: #32db89;
+  text-align: center;
+}
+.forth-section .forthbox .subbox1 .box3, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box3, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box3 {
+  width: 70%;
+  color: #fff;
+  font-weight: 400;
+  padding: 100px 0;
+}
+.forth-section .forthbox .subbox1 .box3 p, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box3 p, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box3 p {
+  font-size: 22px;
+  line-height: 40px;
+}
+.forth-section .forthbox .subbox1 .box3 h5, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box3 h5, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box3 h5 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
+  padding: 90px 0 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+}
+.forth-section .forthbox .subbox1 .box3 i, .forth-section .forthbox .backcamera .box1 .second-box1 .box3 .subbox2 .box3 i, .backcamera .box1 .second-box1 .box3 .forth-section .forthbox .subbox2 .box3 i {
+  margin: 50px 0 0;
+  font-size: 50px;
+}
+.forth-section .forthbox .subbox2 {
+  position: sticky;
+  top: 9%;
+  width: 33%;
+  background-color: #32DB8A;
+  height: 370px;
+  font-family: "Montserrat", sans-serif;
+}
+.forth-section .forthbox .subbox2 .number4 {
+  overflow: hidden;
+}
+.forth-section .forthbox .subbox2 .number4 h1, .forth-section .forthbox .subbox2 .number4 .banner-img p, .banner-img .forth-section .forthbox .subbox2 .number4 p {
+  color: #55B286;
+  margin: 0 -60px;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 100%;
+  letter-spacing: -5px;
+}
+.forth-section .forthbox .subbox2 .stories h2 {
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 83px;
+  margin-top: 10px;
+  color: #fff;
+  margin-left: 115px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+}
+
+.fifth-section {
+  width: 100%;
+  background-image: url(../photos/asset\ 32.webp);
+  background-repeat: repeat-x;
+  background-position: center center;
+  background-size: auto;
+}
+.fifth-section .mainbox .fifthbox1 {
+  width: 33%;
+  background-color: #FFBA42;
+  height: 370px;
+  display: inline;
+  position: sticky;
+  top: 9%;
+}
+.fifth-section .mainbox .fifthbox1 .number5 {
+  overflow: hidden;
+}
+.fifth-section .mainbox .fifthbox1 .number5 h1, .fifth-section .mainbox .fifthbox1 .number5 .banner-img p, .banner-img .fifth-section .mainbox .fifthbox1 .number5 p {
+  color: #E3A436;
+  margin: 0 -60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 100%;
+  letter-spacing: -5px;
+}
+.fifth-section .mainbox .fifthbox1 .offer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 83px;
+  margin-top: 10px;
+  color: #fff;
+  margin-left: 115px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+}
+.fifth-section .mainbox .fifthbox2 {
+  width: 70%;
+}
+.fifth-section .mainbox .fifthbox2 .box1 {
+  height: 370px;
+}
+.fifth-section .mainbox .fifthbox2 .whitebox1 {
+  background-color: #fff;
+}
+.fifth-section .mainbox .fifthbox2 .whitebox1 .box2, .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box3 .subbox1, .backcamera .box1 .second-box1 .box3 .fifth-section .mainbox .fifthbox2 .whitebox1 .subbox1, .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box3 .subbox2, .backcamera .box1 .second-box1 .box3 .fifth-section .mainbox .fifthbox2 .whitebox1 .subbox2, .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box4, .backcamera .box1 .second-box1 .fifth-section .mainbox .fifthbox2 .whitebox1 .box4 {
+  overflow: hidden;
+  height: 100px;
+}
+.fifth-section .mainbox .fifthbox2 .whitebox1 .box2 h1, .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box3 .subbox1 h1, .backcamera .box1 .second-box1 .box3 .fifth-section .mainbox .fifthbox2 .whitebox1 .subbox1 h1, .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box3 .subbox2 h1, .backcamera .box1 .second-box1 .box3 .fifth-section .mainbox .fifthbox2 .whitebox1 .subbox2 h1, .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box4 h1, .backcamera .box1 .second-box1 .fifth-section .mainbox .fifthbox2 .whitebox1 .box4 h1, .fifth-section .mainbox .fifthbox2 .whitebox1 .box2 .banner-img p, .banner-img .fifth-section .mainbox .fifthbox2 .whitebox1 .box2 p, .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box3 .subbox1 .banner-img p, .banner-img .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box3 .subbox1 p, .backcamera .box1 .second-box1 .box3 .fifth-section .mainbox .fifthbox2 .whitebox1 .subbox1 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .fifth-section .mainbox .fifthbox2 .whitebox1 .subbox1 p, .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box3 .subbox2 .banner-img p, .banner-img .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box3 .subbox2 p, .backcamera .box1 .second-box1 .box3 .fifth-section .mainbox .fifthbox2 .whitebox1 .subbox2 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .fifth-section .mainbox .fifthbox2 .whitebox1 .subbox2 p, .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box4 .banner-img p, .banner-img .fifth-section .mainbox .fifthbox2 .whitebox1 .backcamera .box1 .second-box1 .box4 p, .backcamera .box1 .second-box1 .fifth-section .mainbox .fifthbox2 .whitebox1 .box4 .banner-img p, .banner-img .backcamera .box1 .second-box1 .fifth-section .mainbox .fifthbox2 .whitebox1 .box4 p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 180px;
+  line-height: 100%;
+  margin-top: -90px;
+  color: #221c5a;
+}
+.fifth-section .mainbox .fifthbox2 .whitebox1 .box3 {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #23214c;
+}
+.fifth-section .mainbox .fifthbox2 .whitebox1 .box3 p {
+  font-weight: 400;
+  width: 50%;
+  padding: 42px;
+}
+.fifth-section .mainbox .fifthbox2 .whitebox1 .box3 ul {
+  width: 50%;
+  padding: 50px;
+}
+.fifth-section .mainbox .fifthbox2 .whitebox1 .box3 ul li {
+  font-weight: 400;
+}
+.fifth-section .mainbox .fifthbox2 .whitebox1 .box3 ul li span {
+  font-weight: 700;
+  color: #FFBA42;
+}
+.fifth-section .mainbox .fifthbox2 .box4 {
+  position: relative;
+}
+.fifth-section .mainbox .fifthbox2 .box4 .img {
+  width: 100%;
+}
+.fifth-section .mainbox .fifthbox2 .box4 .img1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fifth-section .box5 {
+  padding: 100px 0;
+  width: 100%;
+}
+.fifth-section .box5 .icon img {
+  height: 150px;
+}
+.fifth-section .box5 .icon p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.fifth-section .box5 .rounds {
+  margin: 80px 0 0;
+  justify-content: center;
+}
+.fifth-section .box5 .rounds .round1 {
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #fff;
+}
+.fifth-section .box5 .rounds .round2 {
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 5px solid #fff;
+}
+
+.sixth-section {
+  background-image: url(../photos/asset\ 33.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+}
+.sixth-section .mainbox6 .box1 {
+  width: 66%;
+}
+.sixth-section .mainbox6 .box1 .subbox1, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox2, .backcamera .sixth-section .mainbox6 .box1 .second-box1 .box3 .subbox2 {
+  height: 370px;
+}
+.sixth-section .mainbox6 .box1 .subbox2 {
+  padding: 0 60px;
+  background-color: #fff;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .whitebox3 {
+  overflow: hidden;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .whitebox3 h1, .sixth-section .mainbox6 .box1 .subbox2 .whitebox3 .banner-img p, .banner-img .sixth-section .mainbox6 .box1 .subbox2 .whitebox3 p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 170px;
+  line-height: 100%;
+  margin-top: -90px;
+  color: #221c5a;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .petabox p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #23214c;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .chart {
+  padding: 30px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 100%;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .chart .html, .sixth-section .mainbox6 .box1 .subbox2 .chart .design, .sixth-section .mainbox6 .box1 .subbox2 .chart .psd, .sixth-section .mainbox6 .box1 .subbox2 .chart .css {
+  width: 81%;
+  background-color: #32DB8A;
+  color: #55B286;
+  overflow: hidden;
+  padding: 10px;
+  margin: 15px 0;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .chart .html h3, .sixth-section .mainbox6 .box1 .subbox2 .chart .design h3, .sixth-section .mainbox6 .box1 .subbox2 .chart .psd h3, .sixth-section .mainbox6 .box1 .subbox2 .chart .css h3 {
+  padding: 0;
+  font-size: 45px;
+  margin: 0 -25px;
+  transition: 1s;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .chart .html h3:hover, .sixth-section .mainbox6 .box1 .subbox2 .chart .design h3:hover, .sixth-section .mainbox6 .box1 .subbox2 .chart .psd h3:hover, .sixth-section .mainbox6 .box1 .subbox2 .chart .css h3:hover {
+  margin: 0;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .chart .html h4, .sixth-section .mainbox6 .box1 .subbox2 .chart .design h4, .sixth-section .mainbox6 .box1 .subbox2 .chart .psd h4, .sixth-section .mainbox6 .box1 .subbox2 .chart .css h4, .sixth-section .mainbox6 .box1 .subbox2 .chart .html .third-section .box3 .third-subbox2 .box5 .subbox11 div, .sixth-section .mainbox6 .box1 .subbox2 .chart .design .third-section .box3 .third-subbox2 .box5 .subbox11 div, .sixth-section .mainbox6 .box1 .subbox2 .chart .psd .third-section .box3 .third-subbox2 .box5 .subbox11 div, .sixth-section .mainbox6 .box1 .subbox2 .chart .css .third-section .box3 .third-subbox2 .box5 .subbox11 div, .third-section .box3 .third-subbox2 .box5 .subbox11 .sixth-section .mainbox6 .box1 .subbox2 .chart .html div, .third-section .box3 .third-subbox2 .box5 .subbox11 .sixth-section .mainbox6 .box1 .subbox2 .chart .design div, .third-section .box3 .third-subbox2 .box5 .subbox11 .sixth-section .mainbox6 .box1 .subbox2 .chart .psd div, .third-section .box3 .third-subbox2 .box5 .subbox11 .sixth-section .mainbox6 .box1 .subbox2 .chart .css div {
+  padding: 0;
+  margin: 0 -45px;
+  font-size: 35px;
+  transition: 1s;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .chart .html:hover h3, .sixth-section .mainbox6 .box1 .subbox2 .chart .design:hover h3, .sixth-section .mainbox6 .box1 .subbox2 .chart .psd:hover h3, .sixth-section .mainbox6 .box1 .subbox2 .chart .css:hover h3 {
+  margin: 0;
+  color: #fff;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .chart .html:hover h4, .sixth-section .mainbox6 .box1 .subbox2 .chart .design:hover h4, .sixth-section .mainbox6 .box1 .subbox2 .chart .psd:hover h4, .sixth-section .mainbox6 .box1 .subbox2 .chart .css:hover h4, .sixth-section .mainbox6 .box1 .subbox2 .chart .html:hover .third-section .box3 .third-subbox2 .box5 .subbox11 div, .sixth-section .mainbox6 .box1 .subbox2 .chart .design:hover .third-section .box3 .third-subbox2 .box5 .subbox11 div, .sixth-section .mainbox6 .box1 .subbox2 .chart .psd:hover .third-section .box3 .third-subbox2 .box5 .subbox11 div, .sixth-section .mainbox6 .box1 .subbox2 .chart .css:hover .third-section .box3 .third-subbox2 .box5 .subbox11 div, .third-section .box3 .third-subbox2 .box5 .subbox11 .sixth-section .mainbox6 .box1 .subbox2 .chart .html:hover div, .third-section .box3 .third-subbox2 .box5 .subbox11 .sixth-section .mainbox6 .box1 .subbox2 .chart .design:hover div, .third-section .box3 .third-subbox2 .box5 .subbox11 .sixth-section .mainbox6 .box1 .subbox2 .chart .psd:hover div, .third-section .box3 .third-subbox2 .box5 .subbox11 .sixth-section .mainbox6 .box1 .subbox2 .chart .css:hover div {
+  margin: 0;
+  color: #fff;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .chart .css {
+  width: 93%;
+  background-color: #FFBB42;
+  color: #E3A536;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .chart .psd {
+  width: 72%;
+  background-color: #E74C78;
+  color: #B24564;
+}
+.sixth-section .mainbox6 .box1 .subbox2 .chart .design {
+  width: 99%;
+  background-color: #4C9EE7;
+  color: #468ac7;
+}
+.sixth-section .mainbox6 .box2, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox1, .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox1, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox2, .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox2, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box4, .backcamera .box1 .second-box1 .sixth-section .mainbox6 .box4 {
+  width: 33%;
+  background-color: #32DB8A;
+  height: 370px;
+  display: inline;
+  position: sticky;
+  top: 9%;
+}
+.sixth-section .mainbox6 .box2 .number6, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox1 .number6, .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox1 .number6, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox2 .number6, .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox2 .number6, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box4 .number6, .backcamera .box1 .second-box1 .sixth-section .mainbox6 .box4 .number6 {
+  overflow: hidden;
+}
+.sixth-section .mainbox6 .box2 .number6 h1, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox1 .number6 h1, .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox1 .number6 h1, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox2 .number6 h1, .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox2 .number6 h1, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box4 .number6 h1, .backcamera .box1 .second-box1 .sixth-section .mainbox6 .box4 .number6 h1, .sixth-section .mainbox6 .box2 .number6 .banner-img p, .banner-img .sixth-section .mainbox6 .box2 .number6 p, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox1 .number6 .banner-img p, .banner-img .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox1 .number6 p, .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox1 .number6 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox1 .number6 p, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox2 .number6 .banner-img p, .banner-img .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox2 .number6 p, .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox2 .number6 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox2 .number6 p, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box4 .number6 .banner-img p, .banner-img .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box4 .number6 p, .backcamera .box1 .second-box1 .sixth-section .mainbox6 .box4 .number6 .banner-img p, .banner-img .backcamera .box1 .second-box1 .sixth-section .mainbox6 .box4 .number6 p {
+  color: #55B286;
+  margin: 0 -60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 100%;
+  letter-spacing: -5px;
+}
+.sixth-section .mainbox6 .box2 .expertise h2, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox1 .expertise h2, .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox1 .expertise h2, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box3 .subbox2 .expertise h2, .backcamera .box1 .second-box1 .box3 .sixth-section .mainbox6 .subbox2 .expertise h2, .sixth-section .mainbox6 .backcamera .box1 .second-box1 .box4 .expertise h2, .backcamera .box1 .second-box1 .sixth-section .mainbox6 .box4 .expertise h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 83px;
+  margin-top: 10px;
+  color: #fff;
+  margin-left: 115px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+}
+
+.seventh-section {
+  width: 100%;
+  background-image: url(../photos/asset\ 34.webp);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto;
+}
+.seventh-section .mainbox7 .subbox1, .seventh-section .mainbox7 .backcamera .box1 .second-box1 .box3 .subbox2, .backcamera .box1 .second-box1 .box3 .seventh-section .mainbox7 .subbox2 {
+  width: 33%;
+  background-color: #E64B77;
+  height: 370px;
+  display: inline;
+  position: sticky;
+  top: 9%;
+}
+.seventh-section .mainbox7 .subbox1 .number7, .seventh-section .mainbox7 .backcamera .box1 .second-box1 .box3 .subbox2 .number7, .backcamera .box1 .second-box1 .box3 .seventh-section .mainbox7 .subbox2 .number7 {
+  overflow: hidden;
+}
+.seventh-section .mainbox7 .subbox1 .number7 h1, .seventh-section .mainbox7 .backcamera .box1 .second-box1 .box3 .subbox2 .number7 h1, .backcamera .box1 .second-box1 .box3 .seventh-section .mainbox7 .subbox2 .number7 h1, .seventh-section .mainbox7 .subbox1 .number7 .banner-img p, .banner-img .seventh-section .mainbox7 .subbox1 .number7 p, .seventh-section .mainbox7 .backcamera .box1 .second-box1 .box3 .subbox2 .number7 .banner-img p, .banner-img .seventh-section .mainbox7 .backcamera .box1 .second-box1 .box3 .subbox2 .number7 p, .backcamera .box1 .second-box1 .box3 .seventh-section .mainbox7 .subbox2 .number7 .banner-img p, .banner-img .backcamera .box1 .second-box1 .box3 .seventh-section .mainbox7 .subbox2 .number7 p {
+  color: #B24564;
+  margin: 0 -60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 100%;
+  letter-spacing: -5px;
+}
+.seventh-section .mainbox7 .subbox1 .contact h2, .seventh-section .mainbox7 .backcamera .box1 .second-box1 .box3 .subbox2 .contact h2, .backcamera .box1 .second-box1 .box3 .seventh-section .mainbox7 .subbox2 .contact h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 83px;
+  margin-top: 10px;
+  color: #fff;
+  margin-left: 115px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+}
+.seventh-section .subbox2 .box1 {
+  height: 370px;
+}
+.seventh-section .subbox2 .box2, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #23214c;
+  padding: 60px;
+  padding-bottom: 0;
+}
+.seventh-section .subbox2 .box2 .petabox1, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox1, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox1, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox1, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox1, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox1, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox1 {
+  width: 60%;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.seventh-section .subbox2 .box2 .petabox1 p, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox1 p, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox1 p, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox1 p, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox1 p, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox1 p, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox1 p {
+  margin-right: 80px;
+  margin-bottom: 30px;
+}
+.seventh-section .subbox2 .box2 .petabox1 p strong, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox1 p strong, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox1 p strong, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox1 p strong, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox1 p strong, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox1 p strong, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox1 p strong {
+  color: #e64b77;
+}
+.seventh-section .subbox2 .box2 .petabox2, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 {
+  width: 40%;
+}
+.seventh-section .subbox2 .box2 .petabox2 .email, .seventh-section .subbox2 .box2 .petabox2 .subject, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject, .seventh-section .subbox2 .box2 .petabox2 .phone-no, .seventh-section .subbox2 .box2 .petabox2 .name, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .email, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .phone-no, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .name, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .email, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .email, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .phone-no, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .name, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .email, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .email, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .phone-no, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .name, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .email, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .phone-no, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .name {
+  margin: 20px 0;
+  position: relative;
+}
+.seventh-section .subbox2 .box2 .petabox2 .email label, .seventh-section .subbox2 .box2 .petabox2 .subject label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject label, .seventh-section .subbox2 .box2 .petabox2 .phone-no label, .seventh-section .subbox2 .box2 .petabox2 .name label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .email label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .phone-no label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .name label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .email label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .email label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .phone-no label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .name label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .email label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .email label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .phone-no label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .name label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .email label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .phone-no label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .name label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(10px, 10px);
+  transition: transform 0.25s;
+}
+.seventh-section .subbox2 .box2 .petabox2 .email input, .seventh-section .subbox2 .box2 .petabox2 .subject input, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject input, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject input, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject input, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject input, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject input, .seventh-section .subbox2 .box2 .petabox2 .phone-no input, .seventh-section .subbox2 .box2 .petabox2 .name input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .email input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject input, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .phone-no input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .name input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .email input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .email input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject input, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .phone-no input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .name input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .email input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .email input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject input, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .phone-no input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .name input, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .email input, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject input, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject input, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .name input {
+  padding: 10px 45px;
+  border: none;
+  color: #221c5a;
+  background-color: transparent;
+  outline: 2px solid #221c5a;
+}
+.seventh-section .subbox2 .box2 .petabox2 .email input:focus + label, .seventh-section .subbox2 .box2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .box2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .box2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .email input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .email input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .email input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .email input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .email input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .email input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .phone-no input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .name input:focus + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .name input:focus + label, .seventh-section .subbox2 .box2 .petabox2 .email input:valid + label, .seventh-section .subbox2 .box2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .box2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .box2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .email input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .email input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .email input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .email input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .email input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .email input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .phone-no input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .name input:valid + label, .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .name input:valid + label, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .name input:valid + label {
+  transform: translate(10px, -14px) scale(0.8);
+  color: #221c5a;
+  padding-inline: 5px;
+  background-color: #fff;
+}
+.seventh-section .subbox2 .box2 .petabox2 .email input:is(:focus, :valid), .seventh-section .subbox2 .box2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .box2 .petabox2 .phone-no input:is(:focus, :valid), .seventh-section .subbox2 .box2 .petabox2 .name input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .email input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .phone-no input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 .name input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .email input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .phone-no input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .name input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .email input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .phone-no input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 .name input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .email input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box2 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .phone-no input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .name input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .email input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .box2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .box3 .seventh-section .subbox2 .subbox2 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .phone-no input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 .name input:is(:focus, :valid), .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .email input:is(:focus, :valid), .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .seventh-section .subbox2 .box2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .box3 .subbox1 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .seventh-section .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox1 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .box3 .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .box4 .subbox2 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .seventh-section .subbox2 .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .subject input:is(:focus, :valid), .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .phone-no input:is(:focus, :valid), .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 .name input:is(:focus, :valid) {
+  text-decoration: underline;
+  outline-color: #221C5A;
+}
+.seventh-section .subbox2 .box2 .petabox2 button, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 button, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 button, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 button, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 button, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 button, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 button {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: #221C5C;
+  color: #fff;
+  font-size: 10px;
+  border: none;
+  transition: width 0.5s, border-radius 0.5s;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  justify-content: center;
+}
+.seventh-section .subbox2 .box2 .petabox2 button:focus, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 button:focus, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 button:focus, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 button:focus, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 button:focus, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 button:focus, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 button:focus {
+  width: 40px;
+  background-color: #e64b77;
+  border-radius: 50%;
+}
+.seventh-section .subbox2 .box2 .petabox2 button:focus span, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 button:focus span, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 button:focus span, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 button:focus span, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 button:focus span, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 button:focus span, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 button:focus span {
+  opacity: 0;
+}
+.seventh-section .subbox2 .box2 .petabox2 button:focus i, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 button:focus i, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 button:focus i, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 button:focus i, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 button:focus i, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 button:focus i, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 button:focus i {
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+.seventh-section .subbox2 .box2 .petabox2 button i, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 button i, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 button i, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 button i, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 button i, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 button i, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 button i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.25s;
+  font-size: 16px;
+}
+.seventh-section .subbox2 .box2 .petabox2 button i, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox1 .petabox2 button i, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox1 .petabox2 button i, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box3 .subbox2 .petabox2 button i, .backcamera .box1 .second-box1 .box3 .seventh-section .subbox2 .subbox2 .petabox2 button i, .seventh-section .subbox2 .backcamera .box1 .second-box1 .box4 .petabox2 button i, .backcamera .box1 .second-box1 .seventh-section .subbox2 .box4 .petabox2 button i {
+  opacity: 0;
+}
+
+.last, .last .icons {
+  text-align: center;
+  margin: 90px;
+  color: #5b5881;
+  transition: 1s;
+  cursor: pointer;
+}
+.last span:hover {
+  color: #eb6f92;
+}
+.last .icons {
+  font-size: 20px;
+  margin: 5px;
+}
+.last .icons i {
+  padding: 0 5px;
+}
+.last .icons i:hover {
+  color: #eb6f92;
+}
+
+/*# sourceMappingURL=style.css.map */
